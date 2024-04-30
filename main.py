@@ -28,7 +28,7 @@ def reverse(text: str) -> str:
     return reversed_text
 
 
-def is_palindrome(text: str):
+def is_palindrome(text: str) -> bool:
     text = text.lower  # to make all lowercase
     text = str(text)
     text.replace(" ", "")  # to omit all spaces
