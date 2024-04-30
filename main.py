@@ -35,10 +35,8 @@ def is_palindrome(text: str) -> bool:
     x = True
     y = False
     if text == reverse(text):  # something does not work here but I could not figure it out
-        print(x)
         return x
     else:
-        print(y)
         return y
 
 
